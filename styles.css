@@ -1,0 +1,10 @@
+h1 {
+    color: blue;
+    font-size: xx-large;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+}
