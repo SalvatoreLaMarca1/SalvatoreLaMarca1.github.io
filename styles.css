@@ -1,8 +1,12 @@
-h1 {
+/* h1 {
     color: #2D4263;
     font-size: 5vw;
     max-height: fit-content;
     padding-left: 30px;
+} */
+
+h1 {
+  color: white
 }
 
 div.banner {
@@ -142,14 +146,15 @@ img {
 
 /* hold social media links */
 .social-media-container {
-    width: 200px;
-    height: 50px;
-    background-color: burlywood;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    justify-content: center;
     position: absolute;
-    bottom:0;
-    left:50%;
-    transform:translate(-50%,-50%);
 
+    
+
+    gap: 10px;
 
     display: flex;
     justify-content: center;
@@ -157,6 +162,55 @@ img {
 
 /* icons */
 .social-icons {
-    width: 50px;
-    height: 50px;
+  color: white;
+  font-size: 2em;
+}
+
+.insta {
+  color: white;                  /* Default text color */
+  font-size: 2em;                  /* Font size */
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); /* Keep the gradient on hover */
+
+  
+  -webkit-background-clip: text;   /* Clip background to text (for WebKit browsers) */
+  background-clip: text;           /* Clip background to text */
+
+}
+
+.insta:hover {
+  color: transparent;
+}
+
+.github {
+  color: white;
+  font-size: 2em;
+}
+
+.github:hover {
+  color: green;
+}
+
+.linkedIn {
+  color: white;
+  font-size: 2em;
+}
+
+.linkedIn:hover {
+  color:#0077B5
+}
+
+
+
+/* new additions */
+.holdAll {
+  margin: auto;
+  width: fit-content;
+  padding-top: 200px;
+}
+
+
+.profile {
+  border-width: 50rem;
+  border-radius: 50%;
+  width: 15em;
 }
