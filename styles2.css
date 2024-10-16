@@ -1,0 +1,80 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    margin-left: 30px;
+    border-radius: 25px ;
+}
+
+.header {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    align-items: center;
+}
+
+.page-links {
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+}
+
+.btn.btn-dark {
+    background-color: burlywood;
+    border-color: burlywood;
+    color: FFFFF0;
+}
+
+.btn.btn-dark:hover {
+    background-color: #873800;
+    border-color: #873800;
+}
+
+
+.btn.btn-dark:active {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.under-header {
+    background-color: burlywood;
+    height: 400px;
+    width: 75vw;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.portrait {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-info {
+    height: 500px;
+    background-color: burlywood;
+    width: 75vw;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer {
+    background-color: #873800;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+}

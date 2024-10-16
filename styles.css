@@ -9,7 +9,7 @@ h1 {
   color: white
 }
 
-div.banner {
+/* div.banner {
     width: 100%;
     height: max-content;
     background-color: #C84B31;
@@ -17,7 +17,7 @@ div.banner {
     align-items: center;
     padding: 10px;
     position: relative;
-}
+} */
 
 div.hold-btn-groups {
     right: 0;
@@ -33,13 +33,13 @@ div.btn-group {
     max-height: 50px;
 }
 
-button{
+/* button{
     background-color: #b5bf2d;
-}
+} */
 
 
 
-* {box-sizing: border-box}
+/* * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -50,9 +50,9 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
   align-content: center;
-}
+} */
 
-/* Next & previous buttons */
+/* Next & previous buttons
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -66,8 +66,8 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
+} */
+/* 
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -142,7 +142,7 @@ img {
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-}
+} */
 
 /* hold social media links */
 .social-media-container {
@@ -151,13 +151,6 @@ img {
     background-color: black;
     justify-content: center;
     position: absolute;
-
-    
-
-    gap: 10px;
-
-    display: flex;
-    justify-content: center;
 }
 
 /* icons */
@@ -174,7 +167,7 @@ img {
   
   -webkit-background-clip: text;   /* Clip background to text (for WebKit browsers) */
   background-clip: text;           /* Clip background to text */
-
+  margin: 2px;
 }
 
 .insta:hover {
@@ -184,15 +177,17 @@ img {
 .github {
   color: white;
   font-size: 2em;
+  margin: 2px;
 }
 
 .github:hover {
-  color: green;
+  color: #2dba4e;
 }
 
 .linkedIn {
   color: white;
   font-size: 2em;
+  margin: 2px;
 }
 
 .linkedIn:hover {
@@ -206,11 +201,39 @@ img {
   margin: auto;
   width: fit-content;
   padding-top: 200px;
+  
 }
 
 
 .profile {
   border-width: 50rem;
-  border-radius: 50%;
   width: 15em;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
 }
+
+body {
+  background: linear-gradient(-70deg, #306BAC, #141B41, #306BAC);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
+
