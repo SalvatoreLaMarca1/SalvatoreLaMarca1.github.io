@@ -6,6 +6,10 @@
     border-radius: 25px ;
 }
 
+.logo:hover {
+    background-color: #873800;
+}
+
 .header {
     width: 100%;
     height: max-content;
@@ -17,7 +21,7 @@
 
 .page-links {
     display: flex;
-    width: 450px;
+    width: 550px;
     justify-content: space-evenly;
 }
 
@@ -40,7 +44,7 @@
 
 .under-header {
     background-color: burlywood;
-    height: 400px;
+    height: 350px;
     width: 75vw;
     justify-content: space-evenly;
     display: flex;
@@ -49,6 +53,7 @@
     margin-top: 35px;
     border-radius: 25px;
     overflow: hidden;
+    padding-top: 5px;
 }
 
 
@@ -63,18 +68,109 @@ h1 {
 }
 
 .home-info {
-    height: 500px;
     background-color: burlywood;
+    height: 400px;
     width: 75vw;
-    border-radius: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
     margin: auto;
     margin-top: 35px;
     margin-bottom: 35px;
+    border-radius: 25px;
+    overflow: hidden;
+
 }
 
 .footer {
     background-color: #873800;
     bottom: 0px;
-    height: 200px;
+    height: 300px;
     width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    background-color: #FFFFF0;
+    border-radius: 25px;
+    width: 500px;
+    height: 350px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.don {
+    padding: 12px;
+    font-size: inherit
+}
+
+.footer-pages {
+    
+    width: fit-content;
+    height: fit-content;
+}
+
+h4 {
+    color: #FFFFF0;
+    text-decoration: none;
+}
+
+h4:hover {
+    color:burlywood;
+    
+}
+
+/* hold social media links */
+.social-media-container {
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+/* icons */
+.social-icons {
+  color: white;
+  font-size: 2em;
+}
+
+.insta {
+  color: white;                  /* Default text color */
+  font-size: 2em;                  /* Font size */
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); /* Keep the gradient on hover */
+
+  
+  -webkit-background-clip: text;   /* Clip background to text (for WebKit browsers) */
+  background-clip: text;           /* Clip background to text */
+  margin: 3px;
+}
+
+.insta:hover {
+  color: transparent;
+}
+
+.github {
+  color: white;
+  font-size: 2em;
+  margin: 3px;
+}
+
+.github:hover {
+  color: #2dba4e;
+}
+
+.linkedIn {
+  color: white;
+  font-size: 2em;
+  margin: 3px;
+}
+
+.linkedIn:hover {
+  color:#0077B5
 }
