@@ -10,7 +10,7 @@ a:hover {
 .logo {
     width: fit-content;
     height: 50px;
-    background-color: burlywood;
+    background-color: #eef3f9;
     /* margin-left: 30px; */
     border-radius: 25px ;
     justify-content: space-evenly;
@@ -26,7 +26,7 @@ a:hover {
 }
 
 .name-logo {
-    color: #FFFFF0;
+    color: #eef3f9;
 }
 
 .header {
@@ -62,8 +62,9 @@ a:hover {
 
 
 .under-header {
-    background-color: burlywood;
-    height: max-content;
+    background-color: gray;
+    height: 550px;
+
     width: 75vw;
     justify-content: space-evenly;
     display: flex;
@@ -216,12 +217,11 @@ h4:hover {
 
 /* icons */
 .social-icons {
-  color: white;
+  color: white; 
   font-size: 2em;
 }
 
-.insta {
-  color: white;                  /* Default text color */
+.insta {                /* Default text color */
   font-size: 2em;                  /* Font size */
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); /* Keep the gradient on hover */
 
@@ -236,7 +236,6 @@ h4:hover {
 }
 
 .github {
-  color: white;
   font-size: 2em;
   margin: 3px;
 }
@@ -246,7 +245,6 @@ h4:hover {
 }
 
 .linkedIn {
-  color: white;
   font-size: 2em;
   margin: 3px;
 }
