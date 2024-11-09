@@ -1,0 +1,98 @@
+.heading {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.resume {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.resume:hover {
+    color: black;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none !important;
+}
+
+
+/* hold social media links */
+.social-media-container {
+    width: fit-content;
+    height: fit-content;
+}
+
+/* icons */
+.social-icons {
+  color: white; 
+  font-size: 2em;
+}
+
+.insta {                /* Default text color */
+  font-size: 2em;                  /* Font size */
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); /* Keep the gradient on hover */
+
+  
+  -webkit-background-clip: text;   /* Clip background to text (for WebKit browsers) */
+  background-clip: text;           /* Clip background to text */
+  margin: 3px;
+}
+
+.insta:hover {
+  color: transparent;
+}
+
+.github {
+  font-size: 2em;
+  margin: 3px;
+}
+
+.github:hover {
+  color: #2dba4e;
+}
+
+.linkedIn {
+  font-size: 2em;
+  margin: 3px;
+}
+
+.linkedIn:hover {
+  color:#0077B5
+}
+
+.centerAll {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 80vw;
+    height: 80vh;
+}
+
+.comp {
+    color: yellow;
+}
+
+.lang {
+    color: lightgreen;
+}
+
+.prog {
+    color: red;
+}
+
+.trav {
+    color: orange;
+}
+
+.links-and-resume {
+    gap: 20px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
