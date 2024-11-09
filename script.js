@@ -27,3 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("There is no page button to recolor")
      }
 });
+
+function openEmail() {
+    window.open("mailto:salvatore.lamarcab@gmail.com", "_blank")
+}
