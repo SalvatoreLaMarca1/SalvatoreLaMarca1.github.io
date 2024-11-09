@@ -56,15 +56,15 @@ a:hover {
     border-color: #873800;
 }
 
-
-.btn.btn-dark:active {
-    background-color: darkblue;
-    border-color: darkblue;
+.btn.btn-dark:focus {
+    background-color: #873800;
 }
+
 
 .under-header {
     background-color: gray;
     height: 550px;
+
     width: 75vw;
     justify-content: space-evenly;
     display: flex;
@@ -162,9 +162,24 @@ h1 {
     background-color: #FFFFF0;
     border-radius: 25px;
     width: 500px;
-    height: max-content;
+    height: 300px;
     overflow-y: scroll;
     scrollbar-width: none;
+}
+
+.block-long {
+    background-color: #FFFFF0;
+    border-radius: 25px;
+    width: 1020px;
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.hold-blocks-horizontal {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -245,4 +260,10 @@ h4:hover {
 .email-link:hover {
     color:#873800;
     text-decoration: transparent;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
