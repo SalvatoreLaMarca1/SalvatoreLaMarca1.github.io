@@ -7,6 +7,9 @@
     padding-right: 5px;
     padding-left: 5px;
     text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    background-color: transparent;
 }
 
 .resume:hover {
@@ -88,17 +91,6 @@
   align-items: center;
   justify-content: center;
 
-
-
-background: linear-gradient(135deg,
-        #d2b48c 0%,     /* Tan */
-        #deb887 20%,    /* Burlywood */
-        #F5F2E8 40%,
-        #FCFBF4 50%,    /* Pure cream center */
-        #F5F2E8 60%,
-        #deb887 80%,    /* Burlywood */
-        #d2b48c 100%    /* Tan */
-    );
     background-size: 400% 400%;
     animation: gradientShift 15s ease-in-out infinite;
     min-height: 100vh;
