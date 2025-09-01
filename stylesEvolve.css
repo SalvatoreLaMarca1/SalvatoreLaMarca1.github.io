@@ -64,15 +64,15 @@
 }
 
 .lang {
-    color: lightgreen;
+    color: rgb(77, 161, 77);
 }
 
 .prog {
-    color: red;
+    color: rgb(211, 13, 13);
 }
 
 .trav {
-    color: orange;
+    color: rgb(205, 137, 12);
 }
 
 .links-and-resume {
